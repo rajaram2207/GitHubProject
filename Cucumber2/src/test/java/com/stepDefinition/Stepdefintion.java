@@ -43,6 +43,7 @@ public class Stepdefintion extends Basecllass{
 	@When("User Enter The Location")
 	public void user_enter_the_location() {
 		sendkeys(n.getinstanceHb2page().getCountry(),"New York");
+		System.out.println("hello");
 	}
 	@When("User Enter The HotelName")
 	public void user_enter_the_hotel_name() {
